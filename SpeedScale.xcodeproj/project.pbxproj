@@ -15,6 +15,7 @@
 		E8EDDEFE20A5418E00CC8A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EDDEFD20A5418E00CC8A3F /* main.m */; };
 		E8EDDF0820A5418F00CC8A3F /* SpeedScaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EDDF0720A5418F00CC8A3F /* SpeedScaleTests.m */; };
 		E8EDDF1320A5418F00CC8A3F /* SpeedScaleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EDDF1220A5418F00CC8A3F /* SpeedScaleUITests.m */; };
+		E8EDDF2E20A584F600CC8A3F /* LRCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EDDF2D20A584F600CC8A3F /* LRCircleProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E8EDDF0E20A5418F00CC8A3F /* SpeedScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedScaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EDDF1220A5418F00CC8A3F /* SpeedScaleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedScaleUITests.m; sourceTree = "<group>"; };
 		E8EDDF1420A5418F00CC8A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EDDF2C20A584F600CC8A3F /* LRCircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRCircleProgress.h; sourceTree = "<group>"; };
+		E8EDDF2D20A584F600CC8A3F /* LRCircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCircleProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		E8EDDEED20A5418E00CC8A3F /* SpeedScale */ = {
 			isa = PBXGroup;
 			children = (
+				E8EDDF2B20A584DC00CC8A3F /* LRCircleProgress */,
 				E8EDDEEE20A5418E00CC8A3F /* AppDelegate.h */,
 				E8EDDEEF20A5418E00CC8A3F /* AppDelegate.m */,
 				E8EDDEF120A5418E00CC8A3F /* ViewController.h */,
@@ -130,6 +134,15 @@
 				E8EDDF1420A5418F00CC8A3F /* Info.plist */,
 			);
 			path = SpeedScaleUITests;
+			sourceTree = "<group>";
+		};
+		E8EDDF2B20A584DC00CC8A3F /* LRCircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDDF2C20A584F600CC8A3F /* LRCircleProgress.h */,
+				E8EDDF2D20A584F600CC8A3F /* LRCircleProgress.m */,
+			);
+			path = LRCircleProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EDDEF320A5418E00CC8A3F /* ViewController.m in Sources */,
+				E8EDDF2E20A584F600CC8A3F /* LRCircleProgress.m in Sources */,
 				E8EDDEFE20A5418E00CC8A3F /* main.m in Sources */,
 				E8EDDEF020A5418E00CC8A3F /* AppDelegate.m in Sources */,
 			);
